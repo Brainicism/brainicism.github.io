@@ -1,2 +1,2 @@
 # brainicism.github.io
-H
+Hey what's up gamers!
