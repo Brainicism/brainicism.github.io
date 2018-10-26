@@ -2,12 +2,34 @@
 <html>
 <head>
 <style>
+h1{
+    color: yellow;
+}
 body {
-    background-image: url("boss.png");
+    background-image: url("ohmioct19.png");
 }
 </style>
 </head>
 <body>
 <h1> Hello World! </h1>
+
+
+<script>
+var fortnite = false;
+anime()
+
+function anime() {
+    if(fortnite){
+        document.querySelector("h1").style.color = "yellow";
+        fortnite= false;
+    }
+    else{
+        document.querySelector("h1").style.color = "green";
+        fortnite = true;
+    }
+}
+
+setInterval(anime, 100);
+  </script>
 </body>
 </html>
