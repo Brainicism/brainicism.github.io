@@ -1,2 +1,2 @@
 # brainicism.github.io
-Hey what's
+Hey what's up
