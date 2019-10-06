@@ -1,14 +1,14 @@
-var fortnite = false;
+var lazeez = false;
 anime()
 
 function anime() {
     if(fortnite){
         document.querySelector("h1").style.color = "yellow";
-        fortnite= false;
+        lazeez= false;
     }
     else{
         document.querySelector("h1").style.color = "green";
-        fortnite = true;
+        lazeez = true;
     }
 }
 
