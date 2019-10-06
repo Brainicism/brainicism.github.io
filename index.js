@@ -2,7 +2,7 @@ var lazeez = false;
 anime()
 
 function anime() {
-    if(fortnite){
+    if(lazeez){
         document.querySelector("h1").style.color = "yellow";
         lazeez= false;
     }
