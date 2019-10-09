@@ -1,4 +1,4 @@
-# brainicism.github.io
+# [brainicism.github.io](https://brainicism.github.io)
 Hey what's up gamers!
 
 # Contributing
