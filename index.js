@@ -1,5 +1,7 @@
 var lazeez = false;
+var osmows = false;
 anime()
+
 
 function anime() {
     if(lazeez){
@@ -11,5 +13,22 @@ function anime() {
         lazeez = true;
     }
 }
+let gibstick = document.querySelectorAll("#kpop p")
+function anime2() {
+    if(osmows){
+        gibstick.forEach((leakytransistor) => {
+            leakytransistor.style.color = "orange";
+        })
+        osmows= false;
+    }
+    else{
+        gibstick.forEach((leakytransistor) => {
+            leakytransistor.style.color = "black";
+        })
+        osmows = true;
+    }
+}
+anime2()
 
 setInterval(anime, 100);
+setInterval(anime2, 50)
